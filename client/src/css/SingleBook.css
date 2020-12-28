@@ -1,0 +1,57 @@
+#mobile-edition-book{
+  width: 300px;
+height: 450px;
+overflow: hidden;
+margin: 0;
+position: absolute;
+
+margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+}
+
+  #magazine.mg2{
+    width:300px;
+    height:450px;
+    margin:0;
+    -webkit-box-shadow: 0 4px 10px #666;
+  -moz-box-shadow: 0 4px 10px #666;
+  -ms-box-shadow: 0 4px 10px #666;
+  -o-box-shadow: 0 4px 10px #666;
+  box-shadow: 0 4px 10px #666;
+  }
+#magazine .turn-page{
+    background-repeat: no-repeat;
+background-position: center center;
+background-color: #ccc;
+
+}
+.p-temporal{ background: rgba(209, 209, 209, 0.942) ;
+  -webkit-box-shadow: 0 4px 10px #666;
+  -moz-box-shadow: 0 4px 10px #666;
+  -ms-box-shadow: 0 4px 10px #666;
+  -o-box-shadow: 0 4px 10px #666;
+  box-shadow: 0 4px 10px #666;
+}
+#flipbook{
+  -webkit-box-shadow: 0 4px 10px #666;
+  -moz-box-shadow: 0 4px 10px #666;
+  -ms-box-shadow: 0 4px 10px #666;
+  -o-box-shadow: 0 4px 10px #666;
+  box-shadow: 0 4px 10px #666;
+}
+.full-screen-div{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color:rgb(12, 80, 157);
+    background: rgba(255,255,255,0.60);
+    border: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius:10px;
+    display: block;
+}

@@ -1,0 +1,191 @@
+*{
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Carter One';
+}
+body{
+  background: linear-gradient(to right, #86fde8, white);
+  margin: 0; overflow: hidden;
+  scrollbar-width: 0px;
+  
+}
+html{
+  background: linear-gradient(to right, #86fde8, white);
+}
+#pageWrapper{
+  background: linear-gradient(to right, #86fde8, white);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding:0;
+  margin:0;
+}
+.scrolls{
+  display: block;
+  overflow-y: auto;
+  border: 0;
+  height: 100%;
+  padding:0; 
+  margin: 0 auto; 
+  position: relative;
+
+}
+.Text{
+  clear: both; 
+  overflow: hidden;
+  z-index: 10;
+  width: 100%; 
+  text-align: center;
+  display: block;
+  margin: 0 auto; 
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+/*
+.nfc{
+  background: #C4DBE0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(86, 197, 186);
+  
+}
+ */
+ .each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+.nav.default-nav svg{
+  height: inherit;
+  position: relative;
+}
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+.nav-wrapper{
+  display: none;
+}
+.react-slideshow-container{
+  margin: 0 auto;
+}
+.react-slideshow-zoom-wrapper .zoom-wrapper > div{
+  height:500px;
+}
+.react-slideshow-zoom-wrapper .zoom-wrapper > div > div > img {
+ height: 100%;
+}
+
+.justify-center{
+  margin:0 auto;
+  align-items: center;
+}
+
+
+#app-inner::-webkit-scrollbar-track
+{
+	border: 1px solid black;
+	background-color: #F5F5F5;
+}
+body::-webkit-scrollbar{
+  width: 0px;
+  background-color: transparent;
+}
+.mobile-edition-book{
+  display: none;
+  position: absolute;
+}
+#mg-fullscreen{
+  display: block;
+  overflow: hidden;
+}
+@media (max-width:769px){
+  .mobile-edition-book{
+      display: block;
+      position: absolute;
+  }
+  #mg-fullscreen{
+      display: none;
+  }
+}
+
+#app-inner{
+  position:fixed;
+  display:block;
+  z-index:20;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow:hidden auto;
+  background: transparent;
+  padding-top: 70px;
+}
+/* #app-inner::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#app-inner::-webkit-scrollbar-thumb
+{
+	background-color: #000000;	
+}
+ */
+ /* body::-webkit-scrollbar{
+  width: none;
+  background: transparent;
+} */
+@media (max-width:769px){
+  body::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+  }
+  #app-inner::-webkit-scrollbar
+{
+  display: none;
+  width:0px;
+  background: transparent;
+}
+}
+.row .input-field.col.s12{
+  margin:10px auto;
+}
+.full-screen-div{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color:rgb(12, 80, 157);
+  background: white;
+  border: none;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius:  0 10px;
+}
+.handle .react-draggable{
+  position: absolute;
+  z-index: 2001;
+}
+.dkfb{
+  display: block;
+}
+.mbfb{
+  display: none;
+}
+@media(max-width:789px)
+{
+  .dkfb{
+    display: none;
+  }
+  .mbfb{
+    
+    display: block;
+  }
+}

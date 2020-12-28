@@ -1,0 +1,119 @@
+/* #magazine{
+	width:1152px;
+    height:752px;
+    margin: 40px auto;
+}
+#magazine .turn-page{
+	background-color:#ccc;
+	background-size:100% 100%;
+} */
+
+ #magazine.mg1{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 1.5%;
+    
+  }
+
+  /* .page-wrapper{
+    width: 50%;
+    height: 100%;
+  }
+  .page-wrapper>div{
+    height: 100%;
+    width: 100%;
+  }
+  .page-wrapper>div>.page{
+    width: 100%;
+    height: 100%;
+  } */
+  #magazine .turn-page{
+    background-repeat: no-repeat;
+background-position: center center;
+background-color: #ccc;
+  }
+  #mg-fullscreen{
+    width: 760px;
+    height: 560px;
+    margin: auto;
+    
+    
+  }
+  .full-screen-div{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color:rgb(12, 80, 157);
+    background: rgba(255,255,255,0.60);
+    border: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius:10px;
+    display: block;
+}
+#flipbook .shadow,
+#flipbook.shadow{
+  -webkit-box-shadow: 0 4px 10px #666;
+  -moz-box-shadow: 0 4px 10px #666;
+  -ms-box-shadow: 0 4px 10px #666;
+  -o-box-shadow: 0 4px 10px #666;
+  box-shadow: 0 4px 10px #666;
+}
+#prevBtn{
+  cursor:pointer;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size:3rem;
+  color:#0c509d;
+}
+#nextBtn{
+  cursor:pointer;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size:3rem;
+  color:#0c509d;
+}
+
+.exit-fs-dk-btn{
+  cursor:pointer;
+  position:absolute;
+  right:0;
+  top:0;
+  display:none;
+  color:#0c509d;
+  font-size: 20px;
+  cursor: pointer;
+  color:rgb(12, 80, 157);
+  background: rgba(255,255,255,0.60);
+  border: none;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius:10px;
+}
+.exit-fs-mb-btn{
+  cursor:pointer;
+  position:absolute;
+  right:0;
+  bottom:0;
+  display:none;
+  color:#0c509d;
+  font-size: 20px;
+  cursor: pointer;
+  color:rgb(12, 80, 157);
+  background: rgba(255,255,255,0.60);
+  border: none;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius:10px;
+}
