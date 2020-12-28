@@ -3,7 +3,6 @@ const app=express()//invoking express
 const mongoose = require('mongoose')//  initializing mongoose package to communicate/query with mongodb
 const PORT = process.env.PORT || 5000
 const {MONGOURI} = require('./config/keys')
-
 var path = require('path');
 
 //connecting to mongodb 
